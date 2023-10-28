@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#nav {
+    width: 100%;
+    padding: 20px 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* 
+#nav h4 {
+    color: white;
+} */
+
+#hero {
+    color: #fff;
+}
+
+#headings {
+    margin-top: 90px;
+}
+
+#headings h1 {
+    margin-left: 50px;
+    opacity: .7;
+    line-height: 1;
+    font-size: 9vw;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#headings #sec {
+    margin-left: 210px;
+}
+
+.blocktext {
+    width: fit-content;
+}
+
+.blocktext h5 {
+    opacity: .7;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+#smlheadings {
+    margin-top: 100px;
+    padding-right: 30px;
+}
+
+#smlheadings {
+    text-transform: uppercase;
+    margin-top: 5vw;
+    text-align: right;
+    font-size: 1.2vw;
+}
+
+#herofooter {
+    padding: 0 2vw;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#herofooter a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#herofooter #iconset {
+    display: flex;
+    gap: 5px;
+}
+
+#herofooter .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: #888;
+    border-radius: 50%;
+}
+
+#second {
+    padding-top: 80px;
+    padding-right: 6vw;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+
+.elem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 93%;
+    padding: 1.5vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 8vw;
+}
+
+#elelast {
+    border-bottom: 1px solid #888;
+}
+
+.elem img {
+    display: none;
+    z-index: 999;
+    height: 140%;
+    position: absolute;
+}

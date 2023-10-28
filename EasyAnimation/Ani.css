@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 30px;
+    height: 250px;
+    background-color: slateblue;
+    margin: 10px;
+    cursor: pointer;
+    transition: width 0.3s ease-in, height 0.3s ease-in;
+    border-radius: 15px;
+}
+
+.expanded {
+    width: 500px;
+    height: 270px;
+}
